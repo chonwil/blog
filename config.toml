@@ -5,6 +5,7 @@ languageCode = "en-us"
 copyright = "Carlos Palma"
 googleAnalytics = "XXX"
 disqusShortname = "XXX"
+staticDir = "static"
 
 [Author]
     name = "Carlos Palma"
@@ -39,15 +40,15 @@ disqusShortname = "XXX"
 
 [[menu.main]]
     name = "Skills"
-    url = "/skills/"
+    url = "/pages/skills"
     weight = 2
 
 [[menu.main]]
     name = "Contact"
-    url = "/page/contact/"
+    url = "/pages/contact/"
     weight = 3
 
 [[menu.main]]
     name = "About me"
-    url = "/page/about/"
+    url = "/pages/about/"
     weight = 4

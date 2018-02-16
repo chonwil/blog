@@ -1,4 +1,53 @@
-baseURL = "http://example.org/"
-languageCode = "en-us"
-title = "My New Hugo Site"
+baseurl = "https://chonwil.github.io/"
+title = "Home"
 theme = "ghostwriter"
+languageCode = "en-us"
+copyright = "Carlos Palma"
+googleAnalytics = "XXX"
+disqusShortname = "XXX"
+
+[Author]
+    name = "Carlos Palma"
+    profile = "https://www.linkedin.com/in/carlospalma/"
+
+[Taxonomies]
+    tag = "tags"
+
+[Params]
+    intro = true
+    headline = "Carlos Palma"
+    description = "Hello there. I'm a Software Engineer from Montevideo, Uruguay, and you've just arrived at my personal site."
+    github = "https://github.com/chonwil"
+    linkedin = "https://www.linkedin.com/in/carlospalma/"
+    twitter = "https://twitter.com/chonwil"
+    opengraph = true
+    shareTwitter = true
+    shareFacebook = true
+    shareGooglePlus = true
+    shareLinkedIn = false
+    dateFormat = "Mon, 2 Jan, 2006"
+    highlightJsUrl = ""
+    highlightJsLocalUrl = ""
+
+[Permalinks]
+    post = "/:year/:month/:day/:filename/"
+
+[[menu.main]]
+    name = "Blog"
+    url = "/"
+    weight = 1
+
+[[menu.main]]
+    name = "Skills"
+    url = "/skills/"
+    weight = 2
+
+[[menu.main]]
+    name = "Contact"
+    url = "/page/contact/"
+    weight = 3
+
+[[menu.main]]
+    name = "About me"
+    url = "/page/about/"
+    weight = 4

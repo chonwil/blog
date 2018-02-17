@@ -3,7 +3,7 @@ title = "Home"
 theme = "ghostwriter"
 languageCode = "en-us"
 copyright = "Carlos Palma"
-googleAnalytics = "XXX"
+googleAnalytics = "UA-114343781-1"
 disqusShortname = "XXX"
 staticDir = "static"
 
@@ -34,13 +34,13 @@ staticDir = "static"
     post = "/:year/:month/:day/:filename/"
 
 [[menu.main]]
-    name = "Blog"
+    name = "Articles"
     url = "/"
     weight = 1
 
 [[menu.main]]
     name = "Skills"
-    url = "/pages/skills"
+    url = "/pages/skills/"
     weight = 2
 
 [[menu.main]]

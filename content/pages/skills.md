@@ -1,8 +1,7 @@
 ---
 title: "Skills"
 date: 2018-02-16T19:44:23-03:00
-draft: true
-type: page
+draft: false
 ---
 This is a non-exhaustive list of the technologies I've used and skills I've developed over the past 15 years:
 
